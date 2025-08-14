@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Getting Started
+1. **Clone the repository**  
+   
 
-Things you may want to cover:
+2. Install dependencies
 
-* Ruby version
+ - bundle install
+ - yarn install   # if using JS dependencies
 
-* System dependencies
 
-* Configuration
+3. Set up the database
 
-* Database creation
+- rails db:create db:migrate
 
-* Database initialization
 
-* How to run the test suite
+- (Optional) Load seed data
 
-* Services (job queues, cache servers, search engines, etc.)
+- rails db:seed
 
-* Deployment instructions
 
-* ...
+4. Run the server
+
+- rails s
+
+
+- Visit http://localhost:3000 in your browser.
